@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc; // ApiController required
-using System.Reflection.Emit;
-using System.Text;
+//using System.Reflection.Emit; // Not used at moment
+//using System.Text; // Not used at moment
 using System.Xml.Linq;
-using System;
+//using System; // Not used at moment
 using Newtonsoft.Json;
+using System;
 
 namespace jsontoxml.Controllers 
 {
@@ -36,6 +37,16 @@ namespace jsontoxml.Controllers
 
             return $"{declaration}{Environment.NewLine}{doc}";
             //return ls_json;
+
+
+            //Example returned code
+            //<? xml version = "1.0" ?>
+            //< SquidGame >
+            //  < Genre > Thriller </ Genre >
+            //  < Rating Type = "Imdb" > 8.1 </ Rating >
+            //  < Stars > Lee Jung - jae </ Stars >
+            //  < Budget />
+            //</ SquidGame >
         }
         
     }
