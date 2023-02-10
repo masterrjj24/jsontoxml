@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c912sU0ohsFhEN9dIKIEeE1UWe22QhtDZrLgofC0Z1E=",
+  "Source": "jsontoxml",
+  "BasePath": "_content/jsontoxml",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
